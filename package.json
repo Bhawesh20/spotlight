@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/parcel ./index.html"
+    "start": "./node_modules/.bin/parcel ./index.html",
+    "deploy": "./node_modules/.bin/parcel build ./index.html"
   },
   "repository": {},
   "author": "bhawesh.agarwal20@gmail.com",
